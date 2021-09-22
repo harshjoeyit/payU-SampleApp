@@ -1,0 +1,97 @@
+
+===> Test Card Num
+5123456789012346
+
+===> UAT TID
+9024248
+
+===> Success Response 
+Array ( 
+    [mihpayid] => 403993715524191021 
+    [mode] => CC 
+    [status] => success 
+    [unmappedstatus] => 
+    captured [key] => 7rnFly 
+    [txnid] => 05d64fd3f35c7ac677d9 
+    [amount] => 10.00 
+    [cardCategory] => domestic 
+    [discount] => 0.00 
+    [net_amount_debit] => 10 
+    [addedon] => 2021-09-22 13:21:03 
+    [productinfo] => Admission Fee 
+    [firstname] => Harshit 
+    [lastname] => 
+    [address1] => 
+    [address2] => 
+    [city] => 
+    [state] => 
+    [country] => 
+    [zipcode] => 
+    [email] => harshjoeyit@gmail.com 
+    [phone] => 
+    [udf1] => [udf2] => [udf3] => [udf4] => [udf5] => [udf6] => [udf7] => [udf8] => [udf9] => [udf10] => 
+    [hash] => 4677b716fda7dfb7a38fcc472940c5384c4ee4585cad2dd77a427c216f309c6fc22631bb85aa2963e2695288f75d3366eccc0ec57421e3219079b8cbada3d001 
+    [field1] => 555125170985 
+    [field2] => 479585 
+    [field3] => 383139090994605 
+    [field4] => NVp2MnRacnNxTkpzZ0VaUng1ZU4= 
+    [field5] => 02 
+    [field6] => 
+    [field7] => AUTHPOSITIVE 
+    [field8] => 
+    [field9] => 
+    [payment_source] => payu 
+    [PG_TYPE] => CC-PG 
+    [bank_ref_num] => 383139090994605 
+    [bankcode] => CC 
+    [error] => E000 
+    [error_Message] => No Error 
+    [name_on_card] => asdads 
+    [cardnum] => 512345XXXXXX2346 
+    [cardhash] => This field is no longer supported in postback params. 
+)
+
+
+===> Failure Response 
+Array ( 
+    [mihpayid] => 403993715524191145 
+    [mode] => CC 
+    [status] => failure 
+    [unmappedstatus] => failed 
+    [key] => 7rnFly 
+    [txnid] => 5b0ce5177daebc3a16cf 
+    [amount] => 10.00 
+    [cardCategory] => domestic 
+    [discount] => 0.00 
+    [net_amount_debit] => 0.00 
+    [addedon] => 2021-09-22 13:31:54 
+    [productinfo] => Admission Fee 
+    [firstname] => Harshit 
+    [lastname] => 
+    [address1] => 
+    [address2] => 
+    [city] => 
+    [state] => 
+    [country] => 
+    [zipcode] => 
+    [email] => harshjoeyit@gmail.com 
+    [phone] => 
+    [udf1] => [udf2] => [udf3] => [udf4] => [udf5] => [udf6] => [udf7] => [udf8] => [udf9] => [udf10] => 
+    [hash] => 4a7f8054bfe9f642a37fa00039f34132f604d7d50cc1060f39f5533f42881e035aea7768f84e04dc7f4621526c5968f8187099ce6820fd382bcd30d62f2592eb 
+    [field1] => 
+    [field2] => 
+    [field3] => 
+    [field4] => UlhCZjNJcFBpTERHM0lMNFpKZlI= 
+    [field5] => 02 
+    [field6] => 
+    [field7] => AUTHNEGATIVE 
+    [field8] => GW00883 Wrong otp given by user 
+    [field9] => Card authentication failed due to invalid PIN (or Personal identification number)
+    [payment_source] => payu [PG_TYPE] => CC-PG [bank_ref_num] => 
+    [bankcode] => CC 
+    [error] => E710 
+    [error_Message] => Card authentication failed due to invalid PIN (or Personal identification number) 
+    [name_on_card] => asdads 
+    [cardnum] => 512345XXXXXX2346 
+    [cardhash] => This field is no longer supported in postback params. 
+)
